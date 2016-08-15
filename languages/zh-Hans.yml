@@ -33,25 +33,25 @@ page:
   tags: 标签
 
 footer:
-  powered: "由 %s 强力驱动"
-  theme: 主题
+  powered: "Dev by %s "
+  theme: theme
 
 
 counter:
   tag_cloud:
     zero: 暂无标签
-    one: 目前共计 1 个标签
-    other: "目前共计 %d 个标签"
+    one:  1 个标签
+    other: " %d 个标签"
 
   categories:
     zero: 暂无分类
-    one: 目前共计 1 个分类
-    other: "目前共计 %d 个分类"
+    one:  1 个分类
+    other: " %d 个分类"
 
   archive_posts:
     zero: 暂无日志。
-    one: 目前共计 1 篇日志。
-    other: "目前共计 %d 篇日志。"
+    one:  1 篇日志。
+    other: " %d 篇日志"
 
 state:
   posts: 日志
@@ -60,14 +60,14 @@ state:
   categories: 分类
 
 cheers:
-  um: 嗯..
-  ok: OK
-  nice: 好
-  good: 很好
-  great: 非常好
-  excellent: 太棒了
+  um: ''  
+  ok: ''
+  nice: '' 
+  good: ''
+  great: ''
+  excellent: '' 
 
-keep_on: 继续努力。
+keep_on: ''
 
 symbol:
   comma: '， '
