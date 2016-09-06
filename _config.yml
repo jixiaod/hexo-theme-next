@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "百作坊, 小弟, 纪刚, LNMP stack, Web, 工作和生活"
+keywords: "百作坊, 小弟, 纪刚, LNMP Stack, Web, PHP, 工作和生活, 诗和远方"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "百作坊, 小弟, 纪刚, LNMP stack, Web, 工作和生活"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2008
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -51,9 +51,6 @@ menu_icons:
   archives: archive
   commonweal: heartbeat
 
-
-
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -73,7 +70,7 @@ scheme: Mist
 # - Introduce in 5.0.1
 # ---------------------------------------------------------------
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   host:
@@ -110,8 +107,6 @@ font:
     family:
 
 
-
-
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
@@ -122,9 +117,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
-  Github: https://github.com/jixiaod
-  Weibo: http://weibo.com/jixiaod
-  Douban: https://www.douban.com/people/ttihgiesr
+  微博: http://weibo.com/jixiaod
+  Code: https://github.com/jixiaod
+  豆瓣: https://www.douban.com/people/ttihgiesr
 
 
 # Social Links Icons
@@ -133,12 +128,12 @@ social:
 #   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
-  # Icon Mappings.
-  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+    enable: true
+    # Icon Mappings.
+    # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+
+    微博: weibo
+    Code: github
 
 
 # Sidebar Avatar
@@ -204,7 +199,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -237,104 +232,8 @@ mathjax:
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
-# Swiftype Search API Key
-#swiftype_key:
-
 # Baidu Analytics ID
 baidu_analytics: e70448447504ef27f728084c8f2978ea
-
-# Duoshuo ShortName
-#duoshuo_shortname:
-
-# Disqus
-#disqus_shortname:
-
-# Baidu Share
-# Available value:
-#    button | slide
-#baidushare:
-##  type: button
-
-# Share
-#jiathis:
-#add_this_id:
-
-# Share
-#duoshuo_share: true
-
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters/
-#google_site_verification:
-
-
-# Google Analytics
-#google_analytics:
-
-# CNZZ count
-#cnzz_siteid:
-
-
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: false
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
-
-
-# Facebook SDK Support.
-# https://github.com/iissnan/hexo-theme-next/pull/410
-facebook_sdk:
-  enable: false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
-
-# Facebook comments plugin
-# This plugin depends on Facebook SDK.
-# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
-facebook_comments_plugin:
-  enable: false
-  num_of_posts: 10  # min posts num is 1
-  width: 100%       # default width is 550px
-  scheme: light     # default scheme is light (light or dark)
-
-
-# Show number of visitors to each article.
-# You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: false 
-  app_id: P0047FRMvgajWmqeqnnTXxag-gzGzoHsz
-  app_key: O6JYH2lEvAOGOJivIkl4rHMw
-
-# Show PV/UV of the website/page with busuanzi.
-# Get more information on http://ibruce.info/2015/04/04/busuanzi/
-busuanzi_count:
-  # count values only if the other configs are false
-  enable: false
-  # custom uv span for the whole site
-  site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
-  # custom pv span for the whole site
-  site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
-  # custom pv span for one page only
-  page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
-
-# Tencent analytics ID
-# tencent_analytics:
-
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
-
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
